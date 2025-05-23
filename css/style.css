@@ -200,3 +200,34 @@ footer {
 .hero-image{
     background-image: url();
 }
+
+@media screen and (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-header {
+        text-align: center;
+    }
+
+    .hero-input {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .hero-btn {
+        width: 100%;
+    }
+
+    .productive-review {
+        width: 90%;
+        margin: 1em auto;
+    }
+
+    .early-access-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
